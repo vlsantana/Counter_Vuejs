@@ -1,0 +1,59 @@
+*{
+  margin:0%;
+  padding: 16 px 32px;
+  background-color: whitesmoke;
+  font-family:sans-serif;
+  text-align: center;
+}
+
+.increase-scale {
+  transform: scale(5);
+  color: green;
+  font-weight: bold;
+}
+
+.decrease-scale {
+  transform: scale(2);
+  color: red;
+  font-weight: bold;
+}
+
+.container {
+  display: flexbox;
+  align-items: center;
+}
+
+.btn-decrease {
+  font-size: 25px;
+  width: 15em;
+  height: 2em;
+  border-radius: 1em;
+  background-color: tomato;
+}
+
+.hover { 
+  background-color: red;
+}
+
+.btn-increase {
+  font-size: 25px;
+  width: 15em;
+  height: 2em;
+  border-radius: 1em;
+  background-color: teal;
+}
+
+.hover {
+  background-color: teal;
+}
+
+.btn-reset {
+  font-size: 25px;
+  width: 15em;
+  height: 2em;
+  border-radius: 1em;
+}
+
+.hover {
+  background-color: whitesmoke;
+}
